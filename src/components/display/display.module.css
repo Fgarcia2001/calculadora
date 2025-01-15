@@ -1,0 +1,24 @@
+.display{
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 70%;
+    border-radius: 1.5em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+.minipantalla{
+    background-color: bisque;
+    height: 30%;
+    width: 90%;
+    border-radius: 1em;
+}
+.botones{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2em;
+    box-sizing: border-box; 
+}
